@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alexander Davidov — Developer & AI Engineer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Alexander Davidov</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#expertise">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-tag">🎓 Open to Opportunities</div>
+      <h1>Developer &<br><span class="accent">AI Engineer</span></h1>
+      <p class="hero-desc">I build intelligent applications — from machine learning models and deep learning systems to full-featured apps and games. Turning ideas into working products.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Projects</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="skills-strip">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Machine Learning</span>
+        <span class="skill-tag">Deep Learning</span>
+        <span class="skill-tag">App Development</span>
+        <span class="skill-tag">Game Development</span>
+        <span class="skill-tag">TensorFlow / PyTorch</span>
+        <span class="skill-tag">scikit-learn</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner container">
+      <div class="about-text">
+        <div class="section-label">About Me</div>
+        <h2>Passionate builder of intelligent systems</h2>
+        <p>I recently completed in-depth training in Python, Machine Learning, Deep Learning, and App & Game Development. What started as curiosity became a serious pursuit — building things that actually work and solve real problems.</p>
+        <p>I love the full stack of AI: from wrangling datasets and training models to shipping applications that real users interact with. Every project is a chance to push what I know further.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card"><div class="stat-num">4</div><div class="stat-label">Courses Completed</div></div>
+        <div class="stat-card"><div class="stat-num">10+</div><div class="stat-label">Projects Built</div></div>
+        <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Self-Driven</div></div>
+        <div class="stat-card"><div class="stat-num">∞</div><div class="stat-label">Things to Build</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">My Work</div>
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">🏠</div>
+          <div class="project-title">House Price Predictor</div>
+          <p class="project-desc">Trained two ML models — Linear Regression and Random Forest — on 20,640 real California homes to predict house prices. Random Forest achieved an R² of 0.81, explaining 81% of price variation from just 8 features.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">scikit-learn</span>
+            <span class="project-tag">Random Forest</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag">Matplotlib</span>
+          </div>
+          <a href="https://github.com/alexdavidovmain/house-price-predictor" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎬</div>
+          <div class="project-title">Movie Recommender System</div>
+          <p class="project-desc">A web app that recommends 6 movies based on what you love. Combines content-based filtering (genre similarity via TF-IDF) and collaborative filtering (rating similarity) with a clean browser interface built in Flask.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Flask</span>
+            <span class="project-tag">scikit-learn</span>
+            <span class="project-tag">TF-IDF</span>
+            <span class="project-tag">Cosine Similarity</span>
+          </div>
+          <a href="https://github.com/alexdavidovmain/movie-recommender" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section class="expertise" id="expertise">
+    <div class="container">
+      <div class="section-label">What I Know</div>
+      <h2>Expertise</h2>
+      <div class="exp-grid">
+        <div class="exp-card"><div class="exp-icon">🐍</div><div class="exp-title">Python Development</div><p class="exp-desc">Clean, Pythonic code. Libraries like NumPy, Pandas, Matplotlib. Comfortable from scripting to full projects.</p></div>
+        <div class="exp-card"><div class="exp-icon">📈</div><div class="exp-title">Machine Learning</div><p class="exp-desc">Supervised & unsupervised models, feature engineering, model evaluation with scikit-learn.</p></div>
+        <div class="exp-card"><div class="exp-icon">🧠</div><div class="exp-title">Deep Learning</div><p class="exp-desc">Neural networks, CNNs, RNNs. Trained on real datasets with TensorFlow and PyTorch.</p></div>
+        <div class="exp-card"><div class="exp-icon">📱</div><div class="exp-title">App Development</div><p class="exp-desc">Building usable, functional applications focused on real-world problems with clean interfaces.</p></div>
+        <div class="exp-card"><div class="exp-icon">🎮</div><div class="exp-title">Game Development</div><p class="exp-desc">Designing and building interactive games — logic, physics, and player experience.</p></div>
+        <div class="exp-card"><div class="exp-icon">🔬</div><div class="exp-title">Data Analysis</div><p class="exp-desc">EDA, visualization, and storytelling with data. Turning raw numbers into clear insights.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact container">
+      <div class="section-label">Let's Talk</div>
+      <h2>Get in Touch</h2>
+      <p>Whether you have a project in mind, want to collaborate, or just want to connect — I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:alexdavbidov.main@gmail.com" class="btn-primary">Email Me</a>
+        <a href="https://github.com/alexdavidovmain" target="_blank" class="btn-outline">GitHub</a>
+        <a href="https://linkedin.com/in/alexanderdavidov" target="_blank" class="btn-outline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Alexander Davidov</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
